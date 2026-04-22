@@ -828,9 +828,9 @@ a:hover {
 
 @media (max-width: 700px) {
 
-    .hero-name {
-        font-size: clamp(2.4rem, 8vw, 3.2rem);
-        line-height: 1.05;
+    .hero h1 {
+    font-size: clamp(3rem, 4.8vw, 4.2rem);
+    margin-bottom: 1rem;
     }
 
     .panel-grid,
@@ -910,9 +910,9 @@ a:hover {
         }
     }
 
-    .hero-name {
-        font-size: clamp(2rem, 10vw, 2.8rem);
-        line-height: 1.05;
+    .hero h1 {
+    font-size: clamp(3rem, 4.8vw, 4.2rem);
+    margin-bottom: 1rem;
     }
 
     .shell {
