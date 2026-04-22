@@ -365,7 +365,6 @@ a:hover {
     grid-template-columns: repeat(3, 1fr);
 }
 
-/* Resumen profesional: rectángulo horizontal completo */
 .summary-grid {
     grid-template-columns: 1fr;
 }
@@ -482,7 +481,7 @@ a:hover {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.projects-block + .projects-block {
+.projects-block+.projects-block {
     margin-top: 1.5rem;
 }
 
@@ -828,6 +827,12 @@ a:hover {
 }
 
 @media (max-width: 700px) {
+
+    .hero-name {
+        font-size: clamp(2.4rem, 8vw, 3.2rem);
+        line-height: 1.05;
+    }
+
     .panel-grid,
     .projects-grid {
         grid-template-columns: 1fr;
@@ -899,6 +904,17 @@ a:hover {
 }
 
 @media (max-width: 375px) {
+    @media (max-width: 375px) {
+        .hero {
+            padding-top: 1.6rem;
+        }
+    }
+
+    .hero-name {
+        font-size: clamp(2rem, 10vw, 2.8rem);
+        line-height: 1.05;
+    }
+
     .shell {
         width: min(1120px, 94vw);
     }
